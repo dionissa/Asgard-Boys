@@ -1,0 +1,76 @@
+@keyframes gradientBackground {
+  0% {
+    background-color: #3498db; /* Azul */
+  }
+  25% {
+    background-color: #e74c3c; /* Vermelho */
+  }
+  50% {
+    background-color: #2ecc71; /* Verde */
+  }
+  75% {
+    background-color: #f39c12; /* Amarelo */
+  }
+  100% {
+    background-color: #3498db; /* Azul (retorna ao início) */
+  }
+}
+
+body {
+  animation: gradientBackground 20s infinite; /* O fundo irá alterar as cores a cada 20 segundos. Ajuste conforme desejar. */
+  transition: background-color 1s; /* Transição suave entre as cores */
+  /* ... restante do seu código CSS para body ... */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+}
+
+#clan-logo {
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  margin-bottom: 20px;
+}
+
+h1,
+h2 {
+  color: #0077b6; /* Escolhi um azul, mas sinta-se livre para mudar */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #0077b6;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+li a:hover {
+  background-color: #005b94;
+}
